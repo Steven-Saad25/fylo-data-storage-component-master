@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(/images/bg-mobile.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main{
+    position: absolute;
+    max-width: 300px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+}
+.main > .top{
+    width: 275px;
+    height: 175px;
+    background-color: hsl(228, 56%, 26%);
+    position: relative;
+    padding: 10px;
+    border-radius: 10px 80px 10px 10px;
+    margin-bottom: 20px;
+}
+.main > .top div:nth-child(1) p{
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    position: absolute;
+    top: 35px;
+    left: 95px;
+}
+.main > .top div:nth-child(1) div{
+    background-image: url(/images/logo.svg);
+    width: 45px;
+    height: 40px;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+}
+.main > .top > div:nth-child(2),
+.main > .top > div:nth-child(3),
+.main > .top > div:nth-child(4){
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    background-color: hsl(229, 57%, 11%);
+    border-radius: 5px;
+}
+.main > .top > div:nth-child(2){
+    top: 110px;
+    left: 40px;
+}
+.main > .top > div:nth-child(2)::after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-25%, -30%);
+    background-repeat: no-repeat;
+    background-image: url(/images/icon-document.svg);
+    width: 40px;
+    height: 40px;
+}
+.main > .top > div:nth-child(3){
+    top: 110px;
+    left: 110px;
+}
+.main > .top > div:nth-child(3)::after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-30%, -25%);
+    background-repeat: no-repeat;
+    background-image: url(/images/icon-folder.svg);
+    width: 40px;
+    height: 40px;
+}
+.main > .top > div:nth-child(4){
+    top: 110px;
+    left: 180px;
+}
+.main > .top > div:nth-child(4)::after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-30%, -20%);
+    background-repeat: no-repeat;
+    background-image: url(/images/icon-upload.svg);
+    width: 40px;
+    height: 40px;
+}
+
+.main > .bottom{
+    width: 275px;
+    height: 125px;
+    background-color: hsl(228, 56%, 26%);
+    position: relative;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.main > .bottom .empty{
+    position: absolute;
+    width: 80%;
+    height: 18px;
+    border-radius: 10px;
+    background-color: hsl(229, 57%, 11%);
+    top: 50px;
+    left: 25px;
+}
+.main > .bottom .empty::before{
+    content: "";
+    position: absolute;
+    width: 70%;
+    height: 12px;
+    background-image: linear-gradient( hsl(6, 100%, 80%) , hsl(335, 100%, 65%));
+    top: 3px;
+    left: 3px;
+    border-radius: 10px;
+}
+.main > .bottom .empty::after{
+    content: "";
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #fff;
+    top: 3px;
+    left: 155px;
+}
+.main > .bottom p:nth-of-type(1):not(:only-child){
+    color: hsl(229, 7%, 55%);
+    font-size: 14px;
+}
+.main > .bottom p:nth-of-type(1):not(:only-child) span{
+    color: hsl(243, 100%, 93%);
+}
+.main > .bottom div:nth-child(3){
+    width: 150px;
+    height: 60px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    position: absolute;
+    top: 115px;
+    left: 70px;
+}
+.main > .bottom div:nth-child(3) p{
+    color: hsl(229, 7%, 55%);
+    font-size: 14px;
+    position: absolute;
+    left: 75px;
+    font-weight: bold;
+}
+.main > .bottom div:nth-child(3) p span{
+    color: #000;
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    left: -60px;
+    top: -8px;
+}
+.main > .bottom p:nth-last-child(1):not(:only-child),
+.main > .bottom p:nth-last-child(2){
+    color: #fff;
+    font-size: 14px;
+    position: absolute;
+    top: 75px;
+}
+.main > .bottom p:nth-last-child(1):not(:only-child){
+    right: 10px;
+}
+.main > .bottom p:nth-last-child(2){
+    left: 20px;
+}
