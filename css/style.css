@@ -4,7 +4,7 @@
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-image: url(/images/bg-mobile.png);
+    background-image: url(../images/bg-mobile.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -33,7 +33,7 @@ body{
     left: 95px;
 }
 .main > .top div:nth-child(1) div{
-    background-image: url(/images/logo.svg);
+    background-image: url(../images/logo.svg);
     width: 45px;
     height: 40px;
     position: absolute;
@@ -60,7 +60,7 @@ body{
     left: 50%;
     transform: translate(-25%, -30%);
     background-repeat: no-repeat;
-    background-image: url(/images/icon-document.svg);
+    background-image: url(../images/icon-document.svg);
     width: 40px;
     height: 40px;
 }
@@ -75,7 +75,7 @@ body{
     left: 50%;
     transform: translate(-30%, -25%);
     background-repeat: no-repeat;
-    background-image: url(/images/icon-folder.svg);
+    background-image: url(../images/icon-folder.svg);
     width: 40px;
     height: 40px;
 }
@@ -90,7 +90,7 @@ body{
     left: 50%;
     transform: translate(-30%, -20%);
     background-repeat: no-repeat;
-    background-image: url(/images/icon-upload.svg);
+    background-image: url(../images/icon-upload.svg);
     width: 40px;
     height: 40px;
 }
